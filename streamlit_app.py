@@ -64,9 +64,6 @@ except URLError as e:
 # output it to the screen as a table
 #streamlit.dataframe(fruityvice_normalized)
 
-#dont run anything past here while we troubleshoot
-#streamlit.stop()
-
 #import snowflake.connector
 
 streamlit.header("The fruit load list contains:")
@@ -82,6 +79,9 @@ if streamlit.button('Get Fruit Load List'):
      my_data_rows = get_fruit_load_list()
      streamlit.dataframe(my_data_rows) 
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
+
+#dont run anything past here while we troubleshoot
+streamlit.stop()
 
 #Second Text Entry Box
 # streamlit.header("Fruityvice Fruit Advice!")
