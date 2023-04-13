@@ -97,7 +97,7 @@ if streamlit.button('Add a Fruit to the List'):
      streamlit.text(back_from_function)
      
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('Thanks for adding ', add_my_fruit)
+streamlit.write('Thanks for adding ', add_my_fruit) 
                 
 #streamlit.write('Thanks for adding ', add_my_fruit)
 # streamlit.header("Fruityvice Fruit Advice!")
