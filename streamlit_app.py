@@ -81,7 +81,7 @@ if streamlit.button('Get Fruit Load List'):
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
 #dont run anything past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 # Second Text Entry Box
 # Allow the end user to add a fruit to the list
